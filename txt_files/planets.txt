@@ -1,0 +1,25 @@
+CREATE TABLE planets(name char, color char, mass float);
+
+INSERT INTO planets(name, color, mass)
+VALUES('Mercury', 'gray', 0.6);
+
+INSERT INTO planets(name, color, mass)
+VALUES('Venus', 'yellow', 0.8);
+
+INSERT INTO planets(name, color, mass)
+VALUES('Earth', 'blue', 1);
+
+INSERT INTO planets(name, color, mass)
+VALUES('Mars', 'red', 0.1);
+
+INSERT INTO planets(name, color, mass)
+VALUES('Jupiter', 'orange', 318);
+
+INSERT INTO planets(name, color, mass)
+VALUES('Saturn', 'light yellow', 95);
+
+INSERT INTO planets(name, color, mass)
+VALUES('Uranus', 'light blue', 15);
+
+INSERT INTO planets(name, color, mass)
+VALUES('Neptune', 'dark blue', 17);

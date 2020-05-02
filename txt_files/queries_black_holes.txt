@@ -1,0 +1,15 @@
+SELECT name
+FROM black_holes
+WHERE power > 0;
+
+SELECT name
+FROM black_holes
+WHERE power > 0
+ORDER BY power DESC;
+
+SELECT name
+FROM black_holes
+WHERE power > 0
+ORDER BY power DESC
+LIMIT 1;
+

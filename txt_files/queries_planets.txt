@@ -1,0 +1,14 @@
+SELECT *
+FROM planets;
+
+SELECT name, color
+FROM planets;
+
+SELECT *
+FROM planets
+WHERE color = 'blue' OR color = 'red';
+
+SELECT *
+FROM planets
+WHERE color LIKE '%blue' OR color = 'red';
+

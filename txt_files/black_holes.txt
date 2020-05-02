@@ -1,0 +1,14 @@
+
+CREATE TABLE black_holes(name char, base_mass int, power int);
+
+INSERT INTO black_holes(name, base_mass, power)
+VALUES('M104 - Sombrero Galaxy', 1, 9);
+
+INSERT INTO black_holes(name, base_mass, power)
+VALUES('M31 - Andromeda Galaxy', 1, 8);
+
+INSERT INTO black_holes(name, base_mass, power)
+VALUES('NGC 4889', 1, 10);
+
+INSERT INTO black_holes(name, base_mass, power)
+VALUES('Cygnus X-1', 15, 0);
