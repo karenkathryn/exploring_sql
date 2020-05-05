@@ -1,0 +1,13 @@
+---in command line type psql to get into the PostgreSQL
+---get tables with: \dt 
+---run a script with \i 
+---quit PostgreSQL with: \q     
+
+what is the difference between =# and -#?
+
+---create database
+CREATE DATABASE astronomy_data;
+
+---add tables to the database
+CREATE TABLE black_holes(name char, base_mass int, power int);
+CREATE TABLE planets(name char, color char, mass float);

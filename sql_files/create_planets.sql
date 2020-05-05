@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS planets(name TEXT, color TEXT, mass FLOAT);

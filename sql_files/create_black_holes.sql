@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS black_holes(name TEXT, base_mass INT, power INT);
