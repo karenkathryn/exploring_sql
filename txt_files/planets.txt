@@ -1,7 +1,6 @@
-CREATE TABLE planets(name char, color char, mass float);
+CREATE TABLE planets(name TEXT, color TEXT, mass FLOAT);
 
-INSERT INTO planets(name, color, mass)
-VALUES('Mercury', 'gray', 0.6);
+INSERT INTO planets(name, color, mass) VALUES('Mercury', 'gray', 0.6);
 
 INSERT INTO planets(name, color, mass)
 VALUES('Venus', 'yellow', 0.8);

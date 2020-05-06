@@ -11,3 +11,8 @@ CREATE DATABASE astronomy_data;
 ---add tables to the database
 CREATE TABLE black_holes(name char, base_mass int, power int);
 CREATE TABLE planets(name char, color char, mass float);
+
+PostgreSQL (aka Postgres) is a free and open-source relational database management system (RDBMS)
+RDBMSs have been a common option for the storage of information in databases since 1980s
+SQL is the language of this RDBMS
+SQL is designed for a specific purpose: to query data contained in a relational database. \dt
