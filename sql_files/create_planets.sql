@@ -9,5 +9,6 @@ CREATE TABLE IF NOT EXISTS planets (
     planet_no INT, 
     name TEXT, 
     color TEXT, 
-    mass FLOAT
+    mass FLOAT,
+    distance FLOAT
 );

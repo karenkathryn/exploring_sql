@@ -1,0 +1,5 @@
+# SQL Files
+This directory houses SQL files that create and insert data about: 
+* Black Holes 
+* Planets (in the Solar System)
+* Comets   

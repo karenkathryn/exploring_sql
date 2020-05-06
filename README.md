@@ -4,7 +4,9 @@ This repository houses code for a series of blog posts (on Medium) about explori
 
 ## Directories and files to be aware of:
 
-1. A txt_files/ directory that houses text files of SQL code that creates and queries SQL tables.
+1. A txt_files/ directory that houses (back-up) text files of SQL code that creates and queries SQL tables.
+2. A data/ directory that houses a csv of Comet data used to create a sql table
+3. A sql_files/ directory that houses the SQL statements to create and query tables
 
 ## Results
 You can read about exploring SQL in these blog posts:
