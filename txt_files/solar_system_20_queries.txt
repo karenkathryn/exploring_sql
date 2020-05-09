@@ -1,0 +1,3 @@
+SELECT * FROM solar_system_20 LIMIT 1;
+SELECT ss_name, diameter  FROM solar_system_20 ORDER BY diameter DESC LIMIT 1;
+SELECT ss_name, diameter  FROM solar_system_20 ORDER BY diameter LIMIT 1;
