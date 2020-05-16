@@ -4,3 +4,5 @@ SELECT ss_name, diameter  FROM solar_system_20 ORDER BY diameter LIMIT 1;
 SELECT COUNT(*) FROM solar_system_20;
 SELECT COUNT(ss_name) FROM solar_system_20;
 SELECT MAX(diameter) - MIN(diameter) AS range FROM solar_system_20;
+SELECT classification, COUNT(*) FROM solar_system_20 GROUP BY classification HAVING COUNT(classification) > 2;
+SELECT classification, COUNT(*), MIN(diameter) AS min_diameter, MAX(diameter) AS max_diameter,  AVG(diameter) AS avg_diameter  FROM solar_system_20 WHERE diameter < 3000 GROUP BY classification HAVING COUNT(classification) > 2;
