@@ -6,7 +6,8 @@
 */
 
 SELECT ss_name, 
-    diameter, classification,
-COUNT(*) OVER(PARTITION BY classification) AS ss_count
+    diameter, 
+    classification,
+    COUNT(*) OVER(PARTITION BY classification) AS class_count
 FROM solar_system_20
 ORDER BY diameter;
