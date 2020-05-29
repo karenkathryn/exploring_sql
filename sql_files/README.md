@@ -1,8 +1,6 @@
-# SQL Files
-This directory houses SQL files that create tables and insert data about: 
-* Black Holes 
-* Planets (in the Solar System)
-* Comets   (Data directory link [here](https://catalog.data.gov/dataset/wise-nea-comet-discovery-statistics))
-* The 20 largest objects in the Solar System 
+# SQL Files 
+This directory houses SQL files that:
+* Create RDBMS tables and insert data into the tables
+* Query the tables
 
-Also, there is a subquery example in this directory.
+In addition, there is a subdirectory that houses text files for notes and some queries not saved as SQL files.
