@@ -11,3 +11,7 @@ FROM solar_system_20;
 
 SELECT COUNT(classification) 
 FROM solar_system_20;
+
+SELECT * 
+FROM solar_system_20
+LIMIT 1 OFFSET 1; 
