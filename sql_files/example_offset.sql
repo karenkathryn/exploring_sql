@@ -15,8 +15,3 @@ FROM solar_system_20
 ORDER BY diameter
 LIMIT 3 OFFSET 11;
 
-
-SELECT ss_name, diameter, classification, ss_location
-FROM solar_system_20
-ORDER BY diameter
-LIMIT 2;
