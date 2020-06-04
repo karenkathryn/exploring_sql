@@ -20,3 +20,10 @@ SELECT
     ARRAY_AGG((ss_name, diameter) ORDER BY ss_name) AS info
 FROM solar_system_20
 GROUP BY classification;
+
+SELECT 
+    classification,
+    COUNT(classification) AS ss_count,
+    (ARRAY_AGG((ss_name,diameter) ORDER BY ss_name))[2:3] AS names
+FROM solar_system_20
+GROUP BY classification;
