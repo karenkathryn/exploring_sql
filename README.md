@@ -7,7 +7,7 @@ This repository houses code for a series of blog posts (on Medium) about explori
 1. A txt_files/ directory that houses (back-up) text files of SQL code that creates and queries SQL tables.
 2. A data/ directory that houses a csv of Comet data used to create a sql table
 3. A sql_files/ directory that houses the SQL statements to create and query tables
-4. A notebooks/ directory that houses Jupyter Notebooks (Note: these files are unpolished and will be updated in a final stage of this project)
+4. A notebooks/ directory that houses Jupyter Notebooks (Note: these files are _very_ unpolished and will be updated in a final stage of this project.)
 
 ## Results
 You can read about exploring SQL in these blog posts:
@@ -16,3 +16,4 @@ You can read about exploring SQL in these blog posts:
 * [Searching for Moons with SQL](https://medium.com/swlh/searching-for-moons-with-sql-4d803738347c?source=friends_link&sk=8e9af00e337fc5551e3ffe28cd7a2a46)
 * [Classifying black holes with SQL](https://medium.com/swlh/classifying-black-holes-with-sql-88bd07b54e64?source=friends_link&sk=5b4594dcf3d82881f1d316a90d118f3e)
 * [Joining Constellations with SQL](https://medium.com/@kwarmbein/joining-constellations-with-sql-af40f1255562?source=friends_link&sk=0c5a75976efa60006cb3b2889120e1f2)
+* [Solar System classifications with SQL](https://medium.com/@kwarmbein/solar-system-classifications-with-sql-f1a3a5e4730a?source=friends_link&sk=6a9eafa2c412523f5243f708a4f8e279)
