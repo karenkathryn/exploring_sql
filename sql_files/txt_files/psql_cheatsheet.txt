@@ -3,7 +3,8 @@
 ---run a script with \i 
 ---quit PostgreSQL with: \q   
 ---toggle expanded display with \x on/off  
-
+---check availibe databases with \l
+\dn
 what is the difference between =# and -#?
 
 ---create database
