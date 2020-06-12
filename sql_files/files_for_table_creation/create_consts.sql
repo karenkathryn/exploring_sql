@@ -1,7 +1,8 @@
 /*
     Author:     Karen Warmbein 
     Date:       May 27, 2020
-    Purpose:    Create circumpolar constellations data table                
+    Updated:    June 12, 2020
+    Purpose:    Create constellations data table                
     Note:       None
 */
 
@@ -12,6 +13,12 @@ CREATE TABLE IF NOT EXISTS circ_consts (
 
 CREATE TABLE IF NOT EXISTS sum_consts ( 
     const_name TEXT, 
+    main_stars INT
+);
+
+CREATE TABLE IF NOT EXISTS fall_consts ( 
+    const_name TEXT, 
+    area INT,
     main_stars INT
 );
 
@@ -29,3 +36,11 @@ VALUES ('Cassiopea', 598),
     ('Scorpius', 18),
     ('Andromeda', 16),
     ('Cassiopea', 5);
+
+INSERT INTO fall_consts(const_name, area, main_stars)   
+ VALUES ('Andromeda', 722, 16),
+    ('Cassiopeia', 598, 5),
+    ('Cephius', 588, 7),
+    ('Cetus', 1231, 14),
+    ('Ursa Major', 1280, 20),
+    ('Ursa Minor', 256, 7);
