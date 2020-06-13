@@ -45,3 +45,57 @@ VALUES (2, 10),
     (4, 40),
     (3, 50), 
     (7, 40);
+
+
+
+CREATE TABLE IF NOT EXISTS wrong_table ( 
+    name_const TEXT, 
+    name_obs TEXT
+);
+
+INSERT INTO wrong_table(name_const, name_obs)  
+VALUES ('Cygnus', NULL),
+    ('Lyra', 'Ring Nebula'),
+    ('Scorpius', 'M-80, The Moon'),
+    ('Andromeda', 'Andromeda Galaxy'),
+    ('Cassiopeia', NULL), 
+    ('Pisces', 'The Moon');
+
+    INSERT INTO wrong_table(name_const, name_obs)  
+VALUES ('Ursa Major', 'M-82');
+
+SELECT *
+FROM wrong_table
+WHERE name_const = 'Scorpius' OR name_const = 'Pisces';
+
+SELECT *
+FROM wrong_table
+WHERE name_obs = 'The Moon';
+
+CREATE TABLE IF NOT EXISTS wrong_table_2 ( 
+    name_const TEXT, 
+    name_obs_1 TEXT,
+    name_obs_2 TEXT
+);
+
+INSERT INTO wrong_table_2(name_const, name_obs_1, name_obs_2)  
+VALUES ('Cygnus', NULL, NULL),
+    ('Lyra', 'Ring Nebula', NULL),
+    ('Scorpius', 'M-80', 'The Moon'),
+    ('Andromeda', 'Andromeda Galaxy', NULL),
+    ('Cassiopeia', NULL, NULL), 
+    ('Pisces', 'The Moon', NULL),
+    ('Ursa Major', 'M-82', NULL);
+
+
+    SELECT Count(*) 
+    FROM wrong_table_2
+    WHERE name_obs_1 = 'The Moon' OR name_obs_2 = 'The Moon';
+
+SELECT o.ds_name 
+    , COUNT(o.ds_name)
+FROM sum_consts_obs AS c
+INNER JOIN rel_obs AS r ON c.id = r.id_sum_const
+INNER JOIN sum_obs AS o ON r.id_ds = o.id
+WHERE ds_name = 'The Moon'
+GROUP BY o.ds_name;

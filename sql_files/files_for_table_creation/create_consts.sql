@@ -2,7 +2,7 @@
     Author:     Karen Warmbein 
     Date:       May 27, 2020
     Updated:    June 12, 2020
-    Purpose:    Create constellations data table                
+    Purpose:    Create constellations data tables                
     Note:       None
 */
 
@@ -12,12 +12,6 @@ CREATE TABLE IF NOT EXISTS circ_consts (
 );
 
 CREATE TABLE sum_consts ( 
-    const_name TEXT, 
-    main_stars INT
-);
-
-CREATE TABLE sum_consts_ds ( 
-    id INT,
     const_name TEXT, 
     main_stars INT
 );
@@ -43,13 +37,6 @@ VALUES ('Cassiopeia', 598),
     ('Andromeda', 16),
     ('Cassiopeia', 5);
 
-INSERT INTO sum_consts_ds(id, const_name, main_stars)   
-VALUES (1, 'Cygnus', 9),
-    (2, 'Lyra', 5),
-    (3, 'Ursa Major', 20),
-    (4, 'Scorpius', 18),
-    (5, 'Andromeda', 16),
-    (6, 'Cassiopeia', 5);
 
 INSERT INTO fall_consts(const_name, area, main_stars)   
  VALUES ('Andromeda', 722, 16),
@@ -58,3 +45,4 @@ INSERT INTO fall_consts(const_name, area, main_stars)
     ('Cetus', 1231, 14),
     ('Ursa Major', 1280, 20),
     ('Ursa Minor', 256, 7);
+
