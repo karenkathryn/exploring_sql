@@ -11,7 +11,13 @@ CREATE TABLE IF NOT EXISTS circ_consts (
     area INT
 );
 
-CREATE TABLE IF NOT EXISTS sum_consts ( 
+CREATE TABLE sum_consts ( 
+    const_name TEXT, 
+    main_stars INT
+);
+
+CREATE TABLE sum_consts_ds ( 
+    id INT,
     const_name TEXT, 
     main_stars INT
 );
@@ -23,7 +29,7 @@ CREATE TABLE IF NOT EXISTS fall_consts (
 );
 
 INSERT INTO circ_consts(const_name, area)
-VALUES ('Cassiopea', 598),
+VALUES ('Cassiopeia', 598),
     ('Ursa Major', 1280),
     ('Ursa Minor', 256),
     ('Draco', 1083),
@@ -35,7 +41,15 @@ VALUES ('Cassiopea', 598),
     ('Ursa Major', 20),
     ('Scorpius', 18),
     ('Andromeda', 16),
-    ('Cassiopea', 5);
+    ('Cassiopeia', 5);
+
+INSERT INTO sum_consts_ds(id, const_name, main_stars)   
+VALUES (1, 'Cygnus', 9),
+    (2, 'Lyra', 5),
+    (3, 'Ursa Major', 20),
+    (4, 'Scorpius', 18),
+    (5, 'Andromeda', 16),
+    (6, 'Cassiopeia', 5);
 
 INSERT INTO fall_consts(const_name, area, main_stars)   
  VALUES ('Andromeda', 722, 16),
