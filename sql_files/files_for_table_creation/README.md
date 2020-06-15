@@ -6,4 +6,5 @@ This directory houses SQL files that create tables and insert data about: 
 * The 20 largest objects in the Solar System 
 * Constellations
 * Dinosaurs
+* Night sky objects seen in the summer
 
