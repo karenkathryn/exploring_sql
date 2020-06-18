@@ -4,10 +4,9 @@ This repository houses code for a series of blog posts (on Medium) about explori
 
 ## Directories and files to be aware of:
 
-1. A txt_files/ directory that houses (back-up) text files of SQL code that creates and queries SQL tables.
-2. A data/ directory that houses a csv of Comet data used to create a sql table
-3. A sql_files/ directory that houses the SQL statements to create and query tables
-4. A notebooks/ directory that houses Jupyter Notebooks (Note: these files are _very_ unpolished and will be updated in a final stage of this project.)
+1. A data/ directory that houses a csv of comet data used to create a SQL table
+2. A sql_files/ directory that houses the SQL statements to create and query tables
+3. A notebooks/ directory that houses Jupyter Notebooks (Note: these files are _very_ unpolished and will be updated in a final stage of this project.)
 
 ## Results
 You can read about exploring SQL in these blog posts:
