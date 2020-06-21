@@ -15,6 +15,7 @@ You can read about exploring SQL in these blog posts:
 * [Touring the Solar System with SQL](https://medium.com/swlh/touring-the-solar-system-with-sql-b2a9d167b829?source=friends_link&sk=b77b267ffa08a803232c06afd85816b8)
 * [Searching for Moons with SQL](https://medium.com/swlh/searching-for-moons-with-sql-4d803738347c?source=friends_link&sk=8e9af00e337fc5551e3ffe28cd7a2a46)
 * [Classifying black holes with SQL](https://medium.com/swlh/classifying-black-holes-with-sql-88bd07b54e64?source=friends_link&sk=5b4594dcf3d82881f1d316a90d118f3e)
+* [Creating tables in SQL](https://medium.com/@kwarmbein/creating-tables-in-sql-a3c5995da5f7?source=friends_link&sk=46f6eed6a011ef5c1959bb7e1d7c48bb)
 ### Intermediate SQL
 * [Joining Constellations with SQL](https://medium.com/@kwarmbein/joining-constellations-with-sql-af40f1255562?source=friends_link&sk=0c5a75976efa60006cb3b2889120e1f2)
 * [Solar System classifications with SQL](https://medium.com/@kwarmbein/solar-system-classifications-with-sql-f1a3a5e4730a?source=friends_link&sk=6a9eafa2c412523f5243f708a4f8e279)
