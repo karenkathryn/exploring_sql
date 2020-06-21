@@ -1,16 +1,10 @@
 /*
     Author:     Karen Warmbein 
-    Date:       May 17, 2020
-    Purpose:                 
+    Date:       June 18, 2020
+    Purpose:    Show an example of a window function            
     Note:       None
 */
 
-SELECT ss_name, 
-    diameter, 
-    classification,
-    COUNT(*) OVER(PARTITION BY classification) AS class_count
-FROM solar_system_20
-ORDER BY diameter;
 
 -- window functions
 -- SELECT 
@@ -48,13 +42,19 @@ ORDER BY diameter;
 -- ORDER BY diameter DESC;
 
 
-SELECT 
-    ss_name
+SELECT ss_name
     , diameter
     , classification
     , SUM(diameter) OVER(PARTITION BY classification) AS total_class
     , CAST( CAST(diameter AS decimal) / 
             CAST( SUM(diameter) OVER(PARTITION BY classification) AS decimal)  
             * 100 AS int) AS pct
-FROM solar_system_20;
+FROM solar_system_20
+--Another option for specifying which column to sort on is to use a column 
+-- ordinal position. By ordinal position I mean the order in which the columns 
+-- appear in the SELECT list. One reason why you might use the ordinal position 
+-- in your ORDER BY clause is when the select list column you want to sort on 
+-- contains a complicated expression, such as a CASE expression. 
+ORDER BY 5 DESC
+    , ss_name;
 
