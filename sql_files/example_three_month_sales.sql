@@ -1,8 +1,9 @@
 /*
     Author:     Karen Warmbein 
-    Date:       June 27, 2020
-    Purpose:    The purpose of this file is to experiement with various queries            
-    Note:       None
+    Date:       July 23, 2020
+    Purpose:    The purpose of this file is to solve an algorithmic problem            
+    Note:       Write a query to display the records which have 3 or more 
+                consecutive rows and the amount of sales is more than 5000(inclusive)
 */
 
 SELECT
