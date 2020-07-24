@@ -23,3 +23,4 @@ You can read about exploring SQL in these blog posts:
 * [Many (to many) relations among the stars](https://medium.com/swlh/many-to-many-relations-among-the-stars-1728ba18a2d0?source=friends_link&sk=520341a6b29b886a2f71e13925559bf5)
 * [Creating tables in SQL](https://medium.com/swlh/creating-tables-in-sql-a3c5995da5f7?source=friends_link&sk=46f6eed6a011ef5c1959bb7e1d7c48bb)
 * [A window to the solar system](https://medium.com/@kwarmbein/a-window-to-the-solar-system-d4e882031964?source=friends_link&sk=f421d2e0c4758d29efb1a13a53b0799d)
+* [LAG functionality on SQL Data](https://levelup.gitconnected.com/lag-functionality-on-sql-data-d58027631d8a?source=friends_link&sk=808cf4b0d6867262c63ba03e5e9eaefb)
