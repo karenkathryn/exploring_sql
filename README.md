@@ -24,3 +24,4 @@ You can read about exploring SQL in these blog posts:
 * [Creating tables in SQL](https://medium.com/swlh/creating-tables-in-sql-a3c5995da5f7?source=friends_link&sk=46f6eed6a011ef5c1959bb7e1d7c48bb)
 * [A window to the solar system](https://medium.com/@kwarmbein/a-window-to-the-solar-system-d4e882031964?source=friends_link&sk=f421d2e0c4758d29efb1a13a53b0799d)
 * [LAG functionality on SQL Data](https://levelup.gitconnected.com/lag-functionality-on-sql-data-d58027631d8a?source=friends_link&sk=808cf4b0d6867262c63ba03e5e9eaefb)
+* [Finding seasonality in sales data](https://medium.com/@kwarmbein/finding-seasonality-in-sales-data-9e959d17c01d?source=friends_link&sk=3bf3f1dd806c2e3cc22ef5338a22fefc)
