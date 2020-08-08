@@ -11,7 +11,7 @@ BEGIN
   SELECT diameter
   INTO return_value
   FROM solar_system_20
-  ORDER BY diameter DESC 
+  ORDER BY diameter 
   LIMIT 1 OFFSET N;
   
 RETURN return_value;
