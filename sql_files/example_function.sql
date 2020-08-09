@@ -1,3 +1,9 @@
+/*
+    Author:     Karen Warmbein 
+    Date:       July 9, 2020
+    Purpose:    The purpose of this file is to automate a function in PostgreSQL
+*/
+
 CREATE FUNCTION nth_largest_diameter(N INT) 
 RETURNS INT
 LANGUAGE plpgsql
