@@ -7,4 +7,6 @@ This directory houses SQL files that create tables and insert data about: 
 * Constellations
 * Dinosaurs
 * Night sky objects seen in the summer
+* A hypothetical food stand on Mars
+* Information about observatories, observing dates, and astronomers
 
