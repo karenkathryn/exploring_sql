@@ -1,7 +1,8 @@
 /*
     Author:     Karen Warmbein 
     Date:       July 18, 2020
-    Purpose:    The purpose of this file is to experiement with lag and lead functionality            
+    Purpose:    The purpose of this file is to experiement with lag and lead 
+                functionality            
     Note:       None
 */
 

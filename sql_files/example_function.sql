@@ -1,6 +1,6 @@
 /*
     Author:     Karen Warmbein 
-    Date:       July 9, 2020
+    Date:       August 2020
     Purpose:    The purpose of this file is to automate a function in PostgreSQL
 */
 

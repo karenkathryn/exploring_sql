@@ -1,7 +1,8 @@
 /*
     Author:     Karen Warmbein 
     Date:       July 23, 2020
-    Purpose:    The purpose of this file is to experiement with lag for the sales table            
+    Purpose:    The purpose of this file is to experiement with lag for the sales
+                table            
     Note:       None
 */
 

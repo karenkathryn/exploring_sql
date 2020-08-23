@@ -3,7 +3,8 @@
     Date:       July 23, 2020
     Purpose:    The purpose of this file is to solve an algorithmic problem            
     Note:       Write a query to display the records which have 3 or more 
-                consecutive rows and the amount of sales is equal to or more than mean
+                consecutive rows and the amount of sales is equal to or more than
+                the mean
 */
 
 SELECT
