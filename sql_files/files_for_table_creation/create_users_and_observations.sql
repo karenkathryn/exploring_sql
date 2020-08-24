@@ -54,3 +54,25 @@ VALUES (1, 1, 6, 32, 'clear', '2016-05-03'),
     (13, 16, 10, 42, 'cloudy', '2018-05-01'),
     (14, 3, 10, 39, 'clear', '2018-05-01'),
     (15, 2, 10, 40, 'cloudy', '2018-05-01');
+
+
+ALTER TABLE user_info 
+ADD score INT;
+
+UPDATE user_info SET score = 1 WHERE id = 1;
+UPDATE user_info SET score = 1 WHERE id = 2;
+UPDATE user_info SET score = 2 WHERE id = 3;
+UPDATE user_info SET score = 2.5 WHERE id = 4;
+UPDATE user_info SET score = 3 WHERE id = 5;
+UPDATE user_info SET score = 3 WHERE id = 16;
+
+UPDATE user_info SET score = 5 WHERE id = 6;
+UPDATE user_info SET score = 8 WHERE id = 7;
+UPDATE user_info SET score = 7 WHERE id = 8;
+UPDATE user_info SET score = 10 WHERE id = 9;
+UPDATE user_info SET score = 9 WHERE id = 10;
+UPDATE user_info SET score = 9 WHERE id = 11;
+UPDATE user_info SET score = 7 WHERE id = 12;
+UPDATE user_info SET score = 10 WHERE id = 13;
+UPDATE user_info SET score = 8 WHERE id = 14;
+UPDATE user_info SET score = 10 WHERE id = 15;
