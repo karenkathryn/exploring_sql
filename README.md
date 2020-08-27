@@ -25,3 +25,6 @@ You can read about exploring SQL in these blog posts:
 * [A window to the solar system](https://medium.com/@kwarmbein/a-window-to-the-solar-system-d4e882031964?source=friends_link&sk=f421d2e0c4758d29efb1a13a53b0799d) -- Covering window functions.
 * [LAG functionality on SQL Data](https://levelup.gitconnected.com/lag-functionality-on-sql-data-d58027631d8a?source=friends_link&sk=808cf4b0d6867262c63ba03e5e9eaefb) and [Finding seasonality in sales data](https://levelup.gitconnected.com/finding-seasonality-in-sales-data-9e959d17c01d?source=friends_link&sk=3bf3f1dd806c2e3cc22ef5338a22fefc) - Tutorials that use the LAG and LEAD functionality.
 * [Observing the cosmos with SQL](https://medium.com/@kwarmbein/observing-the-cosmos-with-sql-8807c52cc653?source=friends_link&sk=27dfefcaa58a8125876db81b86817328) - In which I solve a _really_ difficult problem.
+
+### Advanced SQL
+* [Query tuning with the cosmos](https://medium.com/@kwarmbein/query-tuning-with-the-cosmos-5215f4cffb7b?source=friends_link&sk=76433a3baf3fbd15afa64092f9d48802) - A post that introduces query tuning.
